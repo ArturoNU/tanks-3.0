@@ -4,10 +4,15 @@
 #include<string>
 using namespace std;
 
-class proyectil
-{
+#include "Entity.h"
+
+class proyectil:Entity{
     public:
-        proyectil(int, int, int, string);
+
+        proyectil(string);
+        proyectil(string, float, float, Entity::Location);
+
+        proyectil(string, int, int, int);
         virtual ~proyectil();
 
     protected:

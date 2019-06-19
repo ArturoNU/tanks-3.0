@@ -4,18 +4,12 @@
 #include<string>
 using namespace std;
 
-class Tank{
-    public:
-        struct coordinate{
-            float x;
-            float y;
-        };
-        string image;
-        float rotation;
-        float size;
-        coordinate location;
+#include "Entity.h"
 
-        Tank();
+class Tank:Entity{
+    public:
+        Tank(string img);
+        Tank(string img, float rot, float siz, Entity::Location loc);
         virtual ~Tank();
 
     protected:
