@@ -11,6 +11,10 @@ class proyectil
     protected:
 
     private:
+        int damage;
+        int efect;
+        int type;
+        string img;
 };
 
 #endif // PROYECTIL_H
