@@ -13,6 +13,7 @@ proyectil::proyectil(string img, float rot, float siz, Entity::Location loc):Ent
 proyectil::proyectil(string img, int d, int e, int t):Entity(img){
     damage = d;
     efect = e;
+
     type = t;
     //ctor
 }
