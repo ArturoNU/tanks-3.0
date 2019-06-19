@@ -1,4 +1,5 @@
 #include "proyectil.h"
+
 int damage;
 int efect;
 int type;
