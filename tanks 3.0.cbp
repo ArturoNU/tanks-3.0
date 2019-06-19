@@ -10,41 +10,41 @@
 				<Option output="bin/Debug/Prueba" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
-				<Option compiler="gcc" /> 
+				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
 				</Compiler>
 				<Linker>
-					<Add library="include/SFML-2.5.1/lib/libFLAC.a" />
-					<Add library="include/SFML-2.5.1/lib/libfreetype.a" />
-					<Add library="include/SFML-2.5.1/lib/libogg.a" />
-					<Add library="include/SFML-2.5.1/lib/libopenal32.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-audio.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-audio-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-audio-s.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-audio-s-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-graphics.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-graphics-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-graphics-s.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-graphics-s-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-main.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-main-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-network.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-network-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-network-s.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-network-s-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-system.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-system-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-system-s.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-system-s-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-window.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-window-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-window-s.a" />
-					<Add library="include/SFML-2.5.1/lib/libsfml-window-s-d.a" />
-					<Add library="include/SFML-2.5.1/lib/libvorbis.a" />
-					<Add library="include/SFML-2.5.1/lib/libvorbisenc.a" />
-					<Add library="include/SFML-2.5.1/lib/libvorbisfile.a" />
+					<Add library="include/SFML/lib/libFLAC.a" />
+					<Add library="include/SFML/lib/libfreetype.a" />
+					<Add library="include/SFML/lib/libogg.a" />
+					<Add library="include/SFML/lib/libopenal32.a" />
+					<Add library="include/SFML/lib/libsfml-audio.a" />
+					<Add library="include/SFML/lib/libsfml-audio-d.a" />
+					<Add library="include/SFML/lib/libsfml-audio-s.a" />
+					<Add library="include/SFML/lib/libsfml-audio-s-d.a" />
+					<Add library="include/SFML/lib/libsfml-graphics.a" />
+					<Add library="include/SFML/lib/libsfml-graphics-d.a" />
+					<Add library="include/SFML/lib/libsfml-graphics-s.a" />
+					<Add library="include/SFML/lib/libsfml-graphics-s-d.a" />
+					<Add library="include/SFML/lib/libsfml-main.a" />
+					<Add library="include/SFML/lib/libsfml-main-d.a" />
+					<Add library="include/SFML/lib/libsfml-network.a" />
+					<Add library="include/SFML/lib/libsfml-network-d.a" />
+					<Add library="include/SFML/lib/libsfml-network-s.a" />
+					<Add library="include/SFML/lib/libsfml-network-s-d.a" />
+					<Add library="include/SFML/lib/libsfml-system.a" />
+					<Add library="include/SFML/lib/libsfml-system-d.a" />
+					<Add library="include/SFML/lib/libsfml-system-s.a" />
+					<Add library="include/SFML/lib/libsfml-system-s-d.a" />
+					<Add library="include/SFML/lib/libsfml-window.a" />
+					<Add library="include/SFML/lib/libsfml-window-d.a" />
+					<Add library="include/SFML/lib/libsfml-window-s.a" />
+					<Add library="include/SFML/lib/libsfml-window-s-d.a" />
+					<Add library="include/SFML/lib/libvorbis.a" />
+					<Add library="include/SFML/lib/libvorbisenc.a" />
+					<Add library="include/SFML/lib/libvorbisfile.a" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -64,9 +64,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Entity.h" />
 		<Unit filename="include/Tank.h" />
 		<Unit filename="include/proyectil.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Entity.cpp" />
 		<Unit filename="src/Tank.cpp" />
 		<Unit filename="src/proyectil.cpp" />
 		<Extensions>
