@@ -65,6 +65,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Tank.h" />
 		<Unit filename="include/proyectil.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/proyectil.cpp" />
