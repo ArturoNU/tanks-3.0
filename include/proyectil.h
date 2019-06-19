@@ -1,11 +1,13 @@
 #ifndef PROYECTIL_H
 #define PROYECTIL_H
 
+#include<string>
+using namespace std;
 
 class proyectil
 {
     public:
-        proyectil();
+        proyectil(int, int, int, string);
         virtual ~proyectil();
 
     protected:

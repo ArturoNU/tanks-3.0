@@ -1,16 +1,19 @@
 #ifndef TANK_H
 #define TANK_H
 
+#include<string>
+using namespace std;
+
 class Tank{
     public:
-        struct loc{
+        struct coordinate{
             float x;
             float y;
         };
         string image;
         float rotation;
-        float scale;
-        loc location;
+        float size;
+        coordinate location;
 
         Tank();
         virtual ~Tank();
